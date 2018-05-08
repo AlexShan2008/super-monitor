@@ -1,0 +1,33 @@
+{
+  "name": "super-monitor",
+  "version": "1.0.0",
+  "description": "Supervisor and notification the performance and bugs for the website",
+  "main": "index.js",
+  "author": {
+    "name": "AlexShan",
+    "email": "shantong.sir@gmail.com",
+    "url": "http://alexshan.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexShan2008/super-monitor.git"
+  },
+  "keywords": [
+    "monitor",
+    "performance monitor",
+    "bugs monitor",
+    "website"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexShan2008/super-monitor/issues"
+  },
+  "homepage": "https://github.com/AlexShan2008/super-monitor#readme",
+  "devDependencies": {
+    "rollup-plugin-json": "^2.3.0"
+  }
+}
